@@ -1,0 +1,12 @@
+page 1
+heading=https://codepen.io/FelixRilling/pen/vNJoMy
+
+
+page2 -
+    picture- https://codepen.io/cassandraPaige/pen/MWYeqwZ
+    text-  https://codepen.io/ibanez182/pen/rOmYKq
+
+page 2nd last - 3rd one of https://speckyboy.com/stunning-css-javascript-snippets-enhance-illustration
+
+
+buttons=  https://www.kirupa.com/html5/sliding_background_effect_on_link_hover.htm
