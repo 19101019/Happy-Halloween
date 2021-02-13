@@ -1,0 +1,1080 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap" rel="stylesheet"> <title>Document</title>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Griffy&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Butcherman&family=Creepster&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mystery+Quest&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Press+Start+2P"><link rel="preconnect" href="https://fonts.gstatic.com"><link href="https://fonts.googleapis.com/css2?family=Creepster&family=Eater&display=swap" rel="stylesheet"> <head>
+   <style>
+    /* glitch effect1 */
+
+    @import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+html, body {
+  height: 100%;
+}
+
+  body {
+  
+  font-size: 16px;
+  font-weight: bold;
+  color: #e6c485;
+  background-color: #0a0a0a;background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;background-size: cover;
+
+
+
+  
+}
+
+/* unvisited link */
+a:link {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: #ff3c00;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: left;
+      -ms-flex-align: left;
+          align-items: left;
+  -webkit-box-pack: left;
+      -ms-flex-pack: left;
+          justify-content: left;
+  height: 100vh;
+  margin-top: 2%;
+  max-width: 100%;
+}
+
+h1 {
+  display: block;
+  font-size:3.5em;
+   font-family: Nosifer ; margin: 1em 1.5em;
+ color:#750e0e;
+  line-height:120% ;
+}
+
+.glitch {
+  position: relative;
+  margin: 0 auto;
+  background: #000000;
+}
+
+.glitch::before,
+.glitch::after {
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  animation-direction: alternate-reverse;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  clip: rect(0, 900px, 0, 0);
+  content: attr(data-text);
+}
+
+.glitch::after {
+  -webkit-animation-name: glitch-animation;
+          animation-name: glitch-animation;
+  -webkit-animation-duration: 4s;
+          animation-duration: 4s;
+  left: 4px;
+  text-shadow: -1px 0 #d3d3d3;
+  background: #0e0e0e;
+}
+
+.glitch::before {
+  -webkit-animation-name: glitch-animation-2;
+          animation-name: glitch-animation-2;
+  -webkit-animation-duration: 6s;
+          animation-duration: 6s;
+  left: -4px;
+  text-shadow: 1px 0 #cbf6fd;
+  background: #1d1d1d;
+}
+
+/* Expanded Animations */
+@-webkit-keyframes glitch-animation {
+  0% {
+    clip: rect(42px, 9999px, 44px, 0);
+  }
+  5% {
+    clip: rect(12px, 9999px, 59px, 0);
+  }
+  10% {
+    clip: rect(48px, 9999px, 29px, 0);
+  }
+  15.0% {
+    clip: rect(42px, 9999px, 73px, 0);
+  }
+  20% {
+    clip: rect(63px, 9999px, 27px, 0);
+  }
+  25% {
+    clip: rect(34px, 9999px, 55px, 0);
+  }
+  30.0% {
+    clip: rect(86px, 9999px, 73px, 0);
+  }
+  35% {
+    clip: rect(20px, 9999px, 20px, 0);
+  }
+  40% {
+    clip: rect(26px, 9999px, 60px, 0);
+  }
+  45% {
+    clip: rect(25px, 9999px, 66px, 0);
+  }
+  50% {
+    clip: rect(57px, 9999px, 98px, 0);
+  }
+  55.0% {
+    clip: rect(5px, 9999px, 46px, 0);
+  }
+  60.0% {
+    clip: rect(82px, 9999px, 31px, 0);
+  }
+  65% {
+    clip: rect(54px, 9999px, 27px, 0);
+  }
+  70% {
+    clip: rect(28px, 9999px, 99px, 0);
+  }
+  75% {
+    clip: rect(45px, 9999px, 69px, 0);
+  }
+  80% {
+    clip: rect(23px, 9999px, 85px, 0);
+  }
+  85.0% {
+    clip: rect(54px, 9999px, 84px, 0);
+  }
+  90% {
+    clip: rect(45px, 9999px, 47px, 0);
+  }
+  95% {
+    clip: rect(37px, 9999px, 20px, 0);
+  }
+  100% {
+    clip: rect(4px, 9999px, 91px, 0);
+  }
+}
+@keyframes glitch-animation {
+  0% {
+    clip: rect(42px, 9999px, 44px, 0);
+  }
+  5% {
+    clip: rect(12px, 9999px, 59px, 0);
+  }
+  10% {
+    clip: rect(48px, 9999px, 29px, 0);
+  }
+  15.0% {
+    clip: rect(42px, 9999px, 73px, 0);
+  }
+  20% {
+    clip: rect(63px, 9999px, 27px, 0);
+  }
+  25% {
+    clip: rect(34px, 9999px, 55px, 0);
+  }
+  30.0% {
+    clip: rect(86px, 9999px, 73px, 0);
+  }
+  35% {
+    clip: rect(20px, 9999px, 20px, 0);
+  }
+  40% {
+    clip: rect(26px, 9999px, 60px, 0);
+  }
+  45% {
+    clip: rect(25px, 9999px, 66px, 0);
+  }
+  50% {
+    clip: rect(57px, 9999px, 98px, 0);
+  }
+  55.0% {
+    clip: rect(5px, 9999px, 46px, 0);
+  }
+  60.0% {
+    clip: rect(82px, 9999px, 31px, 0);
+  }
+  65% {
+    clip: rect(54px, 9999px, 27px, 0);
+  }
+  70% {
+    clip: rect(28px, 9999px, 99px, 0);
+  }
+  75% {
+    clip: rect(45px, 9999px, 69px, 0);
+  }
+  80% {
+    clip: rect(23px, 9999px, 85px, 0);
+  }
+  85.0% {
+    clip: rect(54px, 9999px, 84px, 0);
+  }
+  90% {
+    clip: rect(45px, 9999px, 47px, 0);
+  }
+  95% {
+    clip: rect(37px, 9999px, 20px, 0);
+  }
+  100% {
+    clip: rect(4px, 9999px, 91px, 0);
+  }
+}
+
+@-webkit-keyframes glitch-animation-2 {
+  0% {
+    clip: rect(65px, 9999px, 100px, 0);
+  }
+  5% {
+    clip: rect(52px, 9999px, 74px, 0);
+  }
+  10% {
+    clip: rect(79px, 9999px, 85px, 0);
+  }
+  15.0% {
+    clip: rect(75px, 9999px, 5px, 0);
+  }
+  20% {
+    clip: rect(67px, 9999px, 61px, 0);
+  }
+  25% {
+    clip: rect(14px, 9999px, 79px, 0);
+  }
+  30.0% {
+    clip: rect(1px, 9999px, 66px, 0);
+  }
+  35% {
+    clip: rect(86px, 9999px, 30px, 0);
+  }
+  40% {
+    clip: rect(23px, 9999px, 98px, 0);
+  }
+  45% {
+    clip: rect(85px, 9999px, 72px, 0);
+  }
+  50% {
+    clip: rect(71px, 9999px, 75px, 0);
+  }
+  55.0% {
+    clip: rect(2px, 9999px, 48px, 0);
+  }
+  60.0% {
+    clip: rect(30px, 9999px, 16px, 0);
+  }
+  65% {
+    clip: rect(59px, 9999px, 50px, 0);
+  }
+  70% {
+    clip: rect(41px, 9999px, 62px, 0);
+  }
+  75% {
+    clip: rect(2px, 9999px, 82px, 0);
+  }
+  80% {
+    clip: rect(47px, 9999px, 73px, 0);
+  }
+  85.0% {
+    clip: rect(3px, 9999px, 27px, 0);
+  }
+  90% {
+    clip: rect(26px, 9999px, 55px, 0);
+  }
+  95% {
+    clip: rect(42px, 9999px, 97px, 0);
+  }
+  100% {
+    clip: rect(38px, 9999px, 49px, 0);
+  }
+}
+
+@keyframes glitch-animation-2 {
+  0% {
+    clip: rect(65px, 9999px, 100px, 0);
+  }
+  5% {
+    clip: rect(52px, 9999px, 74px, 0);
+  }
+  10% {
+    clip: rect(79px, 9999px, 85px, 0);
+  }
+  15.0% {
+    clip: rect(75px, 9999px, 5px, 0);
+  }
+  20% {
+    clip: rect(67px, 9999px, 61px, 0);
+  }
+  25% {
+    clip: rect(14px, 9999px, 79px, 0);
+  }
+  30.0% {
+    clip: rect(1px, 9999px, 66px, 0);
+  }
+  35% {
+    clip: rect(86px, 9999px, 30px, 0);
+  }
+  40% {
+    clip: rect(23px, 9999px, 98px, 0);
+  }
+  45% {
+    clip: rect(85px, 9999px, 72px, 0);
+  }
+  50% {
+    clip: rect(71px, 9999px, 75px, 0);
+  }
+  55.0% {
+    clip: rect(2px, 9999px, 48px, 0);
+  }
+  60.0% {
+    clip: rect(30px, 9999px, 16px, 0);
+  }
+  65% {
+    clip: rect(59px, 9999px, 50px, 0);
+  }
+  70% {
+    clip: rect(41px, 9999px, 62px, 0);
+  }
+  75% {
+    clip: rect(2px, 9999px, 82px, 0);
+  }
+  80% {
+    clip: rect(47px, 9999px, 73px, 0);
+  }
+  85.0% {
+    clip: rect(3px, 9999px, 27px, 0);
+  }
+  90% {
+    clip: rect(26px, 9999px, 55px, 0);
+  }
+  95% {
+    clip: rect(42px, 9999px, 97px, 0);
+  }
+  100% {
+    clip: rect(38px, 9999px, 49px, 0);
+  }
+}
+
+
+/* main body*/
+
+  html, body{
+    margin:0;
+    padding:0;}
+    * {
+    margin: 0;
+    padding: 0;
+}
+
+
+@keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-webkit-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-moz-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+@-ms-keyframes move-twink-back {
+    from {background-position:0 0;}
+    to {background-position:-10000px 5000px;}
+}
+
+@keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-webkit-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-moz-keyframes move-clouds-back {
+    from {background-position:0 0;}
+    to {background-position:10000px 0;}
+}
+@-ms-keyframes move-clouds-back {
+    from {background-position: 0;}
+    to {background-position:10000px 0;}
+}
+
+.stars, .twinkling, .clouds {
+  position:absolute;
+  top:12%;
+  left:0;
+  right:0;
+  bottom:0;
+  max-width:100%;
+  max-height:100vh;
+  display:block;background-size: cover;
+}
+
+.stars {
+  background:#000 url(http://www.script-tutorials.com/demos/360/images/stars.png) repeat top center;
+  z-index:0;background-size: cover;
+}
+
+.twinkling{
+  background:transparent url(http://www.script-tutorials.com/demos/360/images/twinkling.png) repeat top center;
+  z-index:-1;background-size: cover;
+
+  -moz-animation:move-twink-back 200s linear infinite;
+  -ms-animation:move-twink-back 200s linear infinite;
+  -o-animation:move-twink-back 200s linear infinite;
+  -webkit-animation:move-twink-back 200s linear infinite;
+  animation:move-twink-back 200s linear infinite;
+}
+
+.clouds{max-width: 150%;
+    background:transparent url(http://www.script-tutorials.com/demos/360/images/clouds3.png) repeat top center;
+    z-index:3;background-size: cover;
+
+  -moz-animation:move-clouds-back 200s linear infinite;
+  -ms-animation:move-clouds-back 200s linear infinite;
+  -o-animation:move-clouds-back 200s linear infinite;
+  -webkit-animation:move-clouds-back 200s linear infinite;
+  animation:move-clouds-back 200s linear infinite;
+}
+
+   
+button{
+    
+    border: yellowgreen;
+    background-color: yellowgreen;
+    
+    }
+    button a{
+      
+     text-decoration: none;
+     
+    color:rgb(255, 166, 0);
+    }
+    button:hover{
+      background-color: rgb(253, 114, 0);
+      box-shadow: 2px 2px 60px  rgb(253, 122, 0);
+      
+    }
+    button a:hover{
+      color: rgb(255, 0, 0);
+    }
+  
+    #menu {
+	background: #000000;
+	color: #FFF;font-size: 20px;
+	height: 58px;font-family: 'Mystery Quest', cursive;
+	padding-left: 18px;
+	border-radius: 2px;margin-left: 50%;
+}
+#menu ul, #menu li {
+	margin: 0 auto;
+	padding: 0;font-size: 20px;
+	list-style: none;font-family: 'Mystery Quest', cursive;
+}
+#menu ul {
+	width: 100%;
+}
+#menu li {
+	float: left;
+	display: inline;font-size: 20px;
+	position: relative;font-family: 'Mystery Quest', cursive;
+}
+#menu a {
+	display: block;
+	line-height: 58px;
+	padding: 0 14px;
+	text-decoration: none;
+	color: #FF7700;
+  font-size: 20px;font-family: 'Mystery Quest', cursive;
+}
+#menu a.dropdown-arrow:after {
+	content: "\2B9F";font-size: 20px;
+	margin-left: 5px;font-family: 'Mystery Quest', cursive;
+}
+#menu li a:hover {
+	color: #000F14;font-family: 'Mystery Quest', cursive;
+	background: #FF0D05;font-size: 20px;
+}
+#menu input {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 58px;
+	width: 100%;
+	opacity: 0;
+	cursor: pointer
+}
+#menu label {
+	display: none;
+	line-height: 58px;
+	text-align: center;
+	position: absolute;font-size: 20px;
+	left: 35px;font-family: 'Mystery Quest', cursive;
+}
+#menu label:before {
+	font-size: 20px;
+	content: "\2261"; 
+	margin-left: 20px;font-family: 'Mystery Quest', cursive;
+}
+#menu ul.sub-menus{
+	height: auto;
+	overflow: hidden;
+	width: 170px;
+	background: #303030;
+	position: absolute;
+	z-index: 99;font-size: 20px;
+	display: none;font-family: 'Mystery Quest', cursive;
+}
+#menu ul.sub-menus li {
+	display: block;font-size: 20px;
+	width: 100%;font-family: 'Mystery Quest', cursive;
+}
+#menu ul.sub-menus a {
+	color: #FF7700;
+	font-size: 20px;font-family: 'Mystery Quest', cursive;
+	text-transform: uppercase;
+}
+#menu li:hover ul.sub-menus {
+	display: block
+}
+#menu ul.sub-menus a:hover{
+	background: #FF1100;font-size: 20px;
+	color: #030303;font-family: 'Mystery Quest', cursive;
+}
+@media screen and (max-width: 800px){
+	#menu {position:relative}
+	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
+	#menu ul.sub-menus {width:100%;position:static;}
+	#menu ul.sub-menus a {padding-left:30px;}
+	#menu li {display:block;float:none;width:auto;}
+	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
+	#menu input {z-index:4}
+	#menu input:checked + label {color:white}
+	#menu input:checked + label:before {content:"\00d7"}
+	#menu input:checked ~ ul {display:block}
+}
+    
+
+
+.services::after{
+  content: "";
+  display: block;
+  clear: both;
+}
+.services{
+ float: left;
+ 
+ background: lightcoral;
+}
+   
+.service h2, .service p{
+  color: black;text-align: center;margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+p{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+.head{
+    text-align: center;
+    position: relative;
+
+
+}
+
+
+.subhead{
+    
+   
+    padding: 15px 0 10px 0;
+    
+}.subhead p{
+  font-family: eater;padding: 0px 2%;
+    font-size: 55px; color: #e40909;word-spacing: 0.5em
+}
+.weatherforcastbox{
+    position: relative;
+    width: 22%;
+    left: 2%;
+    border: 3px double #2f2f2f;
+    padding: 2% 1% ;
+    line-height: 20px;
+    display: inline-block;
+    margin: 0 50px 20px -360px;
+}
+.content{
+    font-size: 0;
+    line-height: 0;
+    word-spacing: -.31em;
+    display: inline-block;
+    margin: 30px 2% 0 2%;
+
+
+}
+
+
+.collumn{
+    font-size: 20px;
+    line-height: 20px;
+    width: 28.5%;
+    display: inline-block;
+    padding: 0 1% 0 1%;
+    vertical-align: top;
+    margin-bottom: 50px;
+    transition: all .7s;
+}
+.collumn + .collumn { 
+  border-left: 1px solid #2f2f2f;
+}
+.collumn .headline{
+    text-align: center;
+    line-height: normal;
+  font-family: 'Creepster', cursive;
+  font-size: large;
+    display: block;
+    margin: 0 auto;
+padding: 0 15%;
+
+}
+.collumn .headline.hl1{
+    font-weight: 700;
+    font-size: 30px;font-weight: lighter;
+    text-transform: uppercase;
+    padding: 10px 0 10px 0;
+
+}
+
+.collumn .headline.hl2{
+    font-family: nosifer;
+    font-weight: lighter;
+    font-size: 16px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+
+.collumn .headline.hl2:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl2:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 13px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.collumn .headline.hl3{
+    font-weight: 400;
+   
+    font-size: 36px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl4{
+    font-weight: 700;
+    font-size: 16px;font-family: nosifer;font-weight: lighter;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl4:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl4:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+
+.collumn .headline.hl5{
+    font-weight: 400;
+    font-weight: lighter;
+    font-size:36px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl6{
+    font-weight: 400;font-weight: lighter;
+    font-size:14px;font-family: nosifer;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl6:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .headline.hl6:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 10px;
+    display: block;
+    margin: 0 auto;
+
+}
+.collumn .headline.hl7{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    display: block;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl8{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl9{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .headline.hl10{
+    font-weight: 700;
+    font-size: 12px;
+    box-sizing: border-box;
+    padding: 10px 0 10px 0;
+}
+.collumn .citation{
+    font-family: griffy;
+    font-size: 3px;
+    line-height: 44px;
+    /*font-style: italic;*/
+    text-align: center;
+    font-weight: 400;
+    display: block;
+    margin: 40px 0 40px 0;
+    font-feature-settings: "liga", "dlig";
+
+}
+.collumn .citation:before{
+    border-top: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .citation:after{
+    border-bottom: 1px solid #2f2f2f;
+    content: '';
+    width: 100px;
+    height: 16px;
+    display: block;
+    margin: 0 auto;
+}
+.collumn .figure {
+	  margin: 0 0 20px;
+}
+.collumn .figcaption{
+
+	font-size: 22px;
+}
+.media {
+    -webkit-filter: sepia(80%) contrast(1) opacity(0.8);
+    filter: sepia(80%) grayscale(1) contrast(1) opacity(0.8);
+    mix-blend-mode: multiply;
+    width: 100%;
+}
+/*________________________________________________________________________________________________________________________________*/
+/*MEDIAQUERIES*/
+@media only all and (max-width: 1300px) {
+    .weatherforcastbox{
+        display: none;
+    }
+
+}
+@media only all and (max-width: 1200px) {
+    .collumn{
+        width: 31%;
+    }
+
+}
+    @media only all and (max-width: 900px) {
+    .collumn{
+        width: 47%;
+    }
+
+}
+@media only all and (max-width: 600px) {
+    .collumn{
+        width: 100%;
+    }
+	.collumn + .collumn {
+				border-left: none;
+      	border-bottom: 1px solid #2f2f2f;
+	}
+    header{
+        max-width: 320px;
+        font-size: 60px;
+        line-height: 54px;
+        overflow: hidden;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+    
+ #canvas{
+    margin:0px;
+    display:block;
+}
+</style>
+
+
+<body> <nav id='menu'>
+  <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+  <ul>
+    <li><a href='http://'>HOME</a></li>
+    <li><a class='dropdown-arrow' href='http://'>DRESSING UP</a>
+      <ul class='sub-menus'>
+        <li><a href='http://'>Costumes</a></li>
+        <li><a href='http://'>Make-Up</a></li>
+       
+      </ul>
+    </li>
+    <li><a href='http://'>Features</a></li>
+    <li><a class='dropdown-arrow' href='http://'>Parties</a>
+      <ul class='sub-menus'>
+        <li><a href='http://'>Decoration</a></li>
+        <li><a href='http://'>Recipies</a></li>
+        
+      </ul>
+    </li>
+    <li><a href='http://'>Contact Us</a></li>
+  </ul></nav>
+ <section style="float: right;">
+ 
+  <div class="stars"><img src="y.jpg" 
+    style="height:25%;width:10%;padding: 0%;margin-left: 3%;margin-top: 0%;"> 
+ <main class="center" >
+       <h1>SPOOKY<br> COSTUME <br>PARTY<br>
+      <!--<span class="glitch" data-text="Spooky">
+       
+      </span><br>
+      <span class="glitch" data-text=" Costume" style="margin-left:3em">
+      
+      </span><br>
+      <span class="glitch" data-text=" ~Party~"  >
+        ~Party~
+      </span>-->
+      
+    
+ </h1>
+ <img src="k.png" style="margin-top: 0%; z-index: -1;position: relative;">
+  </main><a href="#"><button style="background-color: transparent; 
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(255, 0, 0);border:1px solid rgb(41, 15, 0);
+margin-left: 12%;margin-top: 5%; border-radius: 11px;
+  font-size:1.5em;cursor:pointer;padding: 1.5%;">
+   <a href="#"> Welcome</a>
+  </button></a> <a href="#">
+  <button style="background-color: transparent; 
+  font-family: 'Press Start 2P', cursive;
+  color: rgb(255, 0, 0);border:1px solid rgb(42, 16, 1);
+margin-left: 40%;margin-top: 5%; border-radius: 11px;
+  font-size:1.5em;cursor:pointer;padding: 1.5%;">
+   <a href="#">Register</a>
+  </button></a>
+
+<br><br>
+<br><br>
+  <div class="head">
+    <div class="headerobjectswrapper">
+        <div class="weatherforcastbox"><span style="font-style: italic;">Weatherforcast for the next 24 hours: Plenty of Sunshine</span><br><span>Wind: 7km/h SSE; Ther: 21°C; Hum: 82%</span></div>
+       
+    </div>
+
+    <div class="subhead"><p> Happy  Halloween </p></div>
+</div>
+<div class="content">
+    <div class="collumns">
+        <div class="collumn">
+            <div class="head"><span class="headline hl3">Halloween Parties</span>
+              <p ><span class="headline hl4">EAT DRINK & SCARE</span></p></div>
+            Halloween is a holiday that screams for a party and a scary good time. If you're ready to plan the perfect party, you'll find lots of ideas for themes, activities, and games. Whatever you’re craving, we’ve got it covered. There’s even a few surprises to make Halloween extra fun. Frightful even.</p></div>
+        <div class="collumn">
+            <div class="head"><span class="headline hl5">Dressing Up</span><p><span class="headline hl6">The crowd seems to grow</span></p></div>
+            'Tis the season to disguise yourself and be what you've always wanted to be. Whether it's a homemade costume or some makeup magic, looks can be deceiving. Now put on your boo-ti-ful face and get ready to roam amongst monsters and perhaps the living dead as well. Trick-or-Treat!</p>
+			<figure class="figure"> </div>
+
+
+        <div class="collumn"><div class="head"><span class="headline hl1">May the Force be with you</span><p><span class="headline hl2">Decorating Guides</span></p></div>Transform your space into a display that will impress ghouls and goblins everwhere. You’ll find inspiration for indoor and outdoor decorating to create an atmosphere that’s the epitome of scary. With some properly placed props, you’ll be set up for a Halloween you'll always remember.</p>
+
+
+  </div>
+
+  </div>
+.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="twinkling"></div>
+  <div class="clouds"></div> 
+  </div>
+  
+</div>
+</div>
+</div>
+<!-- /#page-content-wrapper -->
+
+</div></section>
+
+<canvas id="canvas">Your browser doesn't support canvas</canvas>
+<script?>function updatemenu() {
+  if (document.getElementById('responsive-menu').checked == true) {
+    document.getElementById('menu').style.borderBottomRightRadius = '0';
+    document.getElementById('menu').style.borderBottomLeftRadius = '0';
+  }else{
+    document.getElementById('menu').style.borderRadius = '2px';
+  }
+}</script></body>
+</html>
